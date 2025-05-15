@@ -1,4 +1,4 @@
-# This project is a practice project.
+# Project Name "angular-ekart"
 
 Angular Ekart is my first practice project built using Angular, HTML, CSS, and TypeScript. It is an e-commerce application developed to strengthen my skills in frontend web development.
 
