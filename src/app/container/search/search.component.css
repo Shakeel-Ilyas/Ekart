@@ -21,6 +21,7 @@
   background-color: #28282b;
   margin-left: -5px;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn-search-disabled {
