@@ -1,14 +1,17 @@
-<div class="ekart--product--item highlight-product" [disableProduct]="!product.is_in_inventory">
+<div
+  class="ekart--product--item highlight-product"
+  [disableProduct]="!product.is_in_inventory"
+>
   <div class="ekart-wishlist-sale-container">
     <div class="ekart--add--to--wishlist">
       <i class="fa fa-heart-o" aria-hidden="true"></i>
-      <!-- {{ product.id }} -->
     </div>
     <div class="ekart-on-sale-tag" *ngIf="product.discountPrice">
       {{
-        (((product.price - product.discountPrice) / product.price) * 100).toFixed(
-          0
-        )
+        (
+          ((product.price - product.discountPrice) / product.price) *
+          100
+        ).toFixed(0)
       }}% OFF
     </div>
   </div>

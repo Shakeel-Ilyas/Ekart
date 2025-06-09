@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './top-menu.component.html',
-  styleUrl: './top-menu.component.css'
+  styleUrl: './top-menu.component.css',
 })
-export class TopMenuComponent {
-
-}
+export class TopMenuComponent {}

@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [FormsModule],
   templateUrl: './filter.component.html',
-  styleUrl: './filter.component.css'
+  styleUrl: './filter.component.css',
 })
 export class FilterComponent {
   @Input()
@@ -17,15 +17,14 @@ export class FilterComponent {
 
   @Input()
   outOfStock: number = 0;
-  
+
   @Output()
-  selectedFilterRadioButtonChanged: EventEmitter<string> = new EventEmitter<string>();
+  selectedFilterRadioButtonChanged: EventEmitter<string> =
+    new EventEmitter<string>();
 
   selectedFilterRadioButton: string = 'all';
 
-  onSelectedFilterRadioButtonChanged(){
-    this.selectedFilterRadioButtonChanged.emit(this.selectedFilterRadioButton)
+  onSelectedFilterRadioButtonChanged() {
+    this.selectedFilterRadioButtonChanged.emit(this.selectedFilterRadioButton);
   }
-
-
 }
