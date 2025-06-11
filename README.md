@@ -1,8 +1,8 @@
-# Project Name "angular-ekart"
+# Project Name "Ekart"
 
-Angular Ekart is my first practice project built using Angular, TypeScript and HTML/CSS. It is an e-commerce application developed to strengthen my skills in frontend web development.
+Ekart is my first practice project built using Angular, TypeScript and HTML/CSS. It is an e-commerce application developed to strengthen my skills in frontend web development.
 
-# AngularEkart
+# Ekart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
 
